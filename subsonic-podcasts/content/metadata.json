@@ -1,0 +1,28 @@
+{
+    "name": "Subsonic Podcasts",
+    "pluginName": "subsonic-podcasts",
+    "author": "mack_t, Teo and Enno, Brendon",
+    "email": "brendon2020@mac.com",
+    "version": "0.7.0",
+    "website": "http://gettomahawk.com",
+    "description": "Searches your Subsonic server for podcasts to play.",
+    "platform": "any",
+    "tomahawkVersion": "0.6.99",
+    "type": "resolver/javascript",
+    "manifest": {
+        "main": "contents/code/subsonic-podcasts.js",
+        "scripts": [],
+        "icon": "contents/images/icon.png",
+        "iconWhite": "contents/images/iconWhite.png",
+        "iconBackground": "contents/images/iconBackground.png",
+        "resources": [
+            "contents/code/config.ui",
+            "contents/code/runnersid-icon.png",
+            "contents/code/subsonic-icon.png",
+            "contents/code/subsonic.png"
+        ]
+    },
+    "staticCapabilities": [
+        "configTestable"
+    ]
+}
